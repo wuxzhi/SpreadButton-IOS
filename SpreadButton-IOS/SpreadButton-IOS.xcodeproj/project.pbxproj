@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238C0BE72271B4CA00F4337C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C0BE62271B4CA00F4337C /* AppDelegate.m */; };
+		238C0BEA2271B4CA00F4337C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C0BE92271B4CA00F4337C /* ViewController.m */; };
+		238C0BED2271B4CA00F4337C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238C0BEB2271B4CA00F4337C /* Main.storyboard */; };
+		238C0BEF2271B4CC00F4337C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238C0BEE2271B4CC00F4337C /* Assets.xcassets */; };
+		238C0BF22271B4CC00F4337C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238C0BF02271B4CC00F4337C /* LaunchScreen.storyboard */; };
+		238C0BF52271B4CC00F4337C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C0BF42271B4CC00F4337C /* main.m */; };
+		238C0BFF2271B4CD00F4337C /* SpreadButton_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C0BFE2271B4CD00F4337C /* SpreadButton_IOSTests.m */; };
+		238C0C0E2271B50500F4337C /* SpreadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C0C0C2271B50500F4337C /* SpreadButton.m */; };
+		238C0C0F2271B50500F4337C /* SpreadComponentry.m in Sources */ = {isa = PBXBuildFile; fileRef = 238C0C0D2271B50500F4337C /* SpreadComponentry.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		238C0BFB2271B4CD00F4337C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 238C0BDA2271B4CA00F4337C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 238C0BE12271B4CA00F4337C;
+			remoteInfo = "SpreadButton-IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		238C0BE22271B4CA00F4337C /* SpreadButton-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpreadButton-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		238C0BE52271B4CA00F4337C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		238C0BE62271B4CA00F4337C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		238C0BE82271B4CA00F4337C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		238C0BE92271B4CA00F4337C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		238C0BEC2271B4CA00F4337C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		238C0BEE2271B4CC00F4337C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		238C0BF12271B4CC00F4337C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		238C0BF32271B4CC00F4337C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238C0BF42271B4CC00F4337C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		238C0BFA2271B4CD00F4337C /* SpreadButton-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpreadButton-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		238C0BFE2271B4CD00F4337C /* SpreadButton_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpreadButton_IOSTests.m; sourceTree = "<group>"; };
+		238C0C002271B4CD00F4337C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238C0C0A2271B50500F4337C /* SpreadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpreadButton.h; sourceTree = "<group>"; };
+		238C0C0B2271B50500F4337C /* SpreadComponentry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpreadComponentry.h; sourceTree = "<group>"; };
+		238C0C0C2271B50500F4337C /* SpreadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpreadButton.m; sourceTree = "<group>"; };
+		238C0C0D2271B50500F4337C /* SpreadComponentry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpreadComponentry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		238C0BDF2271B4CA00F4337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238C0BF72271B4CD00F4337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238C0BD92271B4CA00F4337C = {
+			isa = PBXGroup;
+			children = (
+				238C0BE42271B4CA00F4337C /* SpreadButton-IOS */,
+				238C0BFD2271B4CD00F4337C /* SpreadButton-IOSTests */,
+				238C0BE32271B4CA00F4337C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		238C0BE32271B4CA00F4337C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				238C0BE22271B4CA00F4337C /* SpreadButton-IOS.app */,
+				238C0BFA2271B4CD00F4337C /* SpreadButton-IOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		238C0BE42271B4CA00F4337C /* SpreadButton-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				238C0BE52271B4CA00F4337C /* AppDelegate.h */,
+				238C0BE62271B4CA00F4337C /* AppDelegate.m */,
+				238C0BE82271B4CA00F4337C /* ViewController.h */,
+				238C0BE92271B4CA00F4337C /* ViewController.m */,
+				238C0C092271B50500F4337C /* Spread */,
+				238C0BEB2271B4CA00F4337C /* Main.storyboard */,
+				238C0BEE2271B4CC00F4337C /* Assets.xcassets */,
+				238C0BF02271B4CC00F4337C /* LaunchScreen.storyboard */,
+				238C0BF32271B4CC00F4337C /* Info.plist */,
+				238C0BF42271B4CC00F4337C /* main.m */,
+			);
+			path = "SpreadButton-IOS";
+			sourceTree = "<group>";
+		};
+		238C0BFD2271B4CD00F4337C /* SpreadButton-IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				238C0BFE2271B4CD00F4337C /* SpreadButton_IOSTests.m */,
+				238C0C002271B4CD00F4337C /* Info.plist */,
+			);
+			path = "SpreadButton-IOSTests";
+			sourceTree = "<group>";
+		};
+		238C0C092271B50500F4337C /* Spread */ = {
+			isa = PBXGroup;
+			children = (
+				238C0C0A2271B50500F4337C /* SpreadButton.h */,
+				238C0C0C2271B50500F4337C /* SpreadButton.m */,
+				238C0C0B2271B50500F4337C /* SpreadComponentry.h */,
+				238C0C0D2271B50500F4337C /* SpreadComponentry.m */,
+			);
+			path = Spread;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		238C0BE12271B4CA00F4337C /* SpreadButton-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238C0C032271B4CD00F4337C /* Build configuration list for PBXNativeTarget "SpreadButton-IOS" */;
+			buildPhases = (
+				238C0BDE2271B4CA00F4337C /* Sources */,
+				238C0BDF2271B4CA00F4337C /* Frameworks */,
+				238C0BE02271B4CA00F4337C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpreadButton-IOS";
+			productName = "SpreadButton-IOS";
+			productReference = 238C0BE22271B4CA00F4337C /* SpreadButton-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		238C0BF92271B4CD00F4337C /* SpreadButton-IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238C0C062271B4CD00F4337C /* Build configuration list for PBXNativeTarget "SpreadButton-IOSTests" */;
+			buildPhases = (
+				238C0BF62271B4CD00F4337C /* Sources */,
+				238C0BF72271B4CD00F4337C /* Frameworks */,
+				238C0BF82271B4CD00F4337C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				238C0BFC2271B4CD00F4337C /* PBXTargetDependency */,
+			);
+			name = "SpreadButton-IOSTests";
+			productName = "SpreadButton-IOSTests";
+			productReference = 238C0BFA2271B4CD00F4337C /* SpreadButton-IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		238C0BDA2271B4CA00F4337C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = wxzhi;
+				TargetAttributes = {
+					238C0BE12271B4CA00F4337C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					238C0BF92271B4CD00F4337C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 238C0BE12271B4CA00F4337C;
+					};
+				};
+			};
+			buildConfigurationList = 238C0BDD2271B4CA00F4337C /* Build configuration list for PBXProject "SpreadButton-IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 238C0BD92271B4CA00F4337C;
+			productRefGroup = 238C0BE32271B4CA00F4337C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				238C0BE12271B4CA00F4337C /* SpreadButton-IOS */,
+				238C0BF92271B4CD00F4337C /* SpreadButton-IOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		238C0BE02271B4CA00F4337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238C0BF22271B4CC00F4337C /* LaunchScreen.storyboard in Resources */,
+				238C0BEF2271B4CC00F4337C /* Assets.xcassets in Resources */,
+				238C0BED2271B4CA00F4337C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238C0BF82271B4CD00F4337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		238C0BDE2271B4CA00F4337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238C0C0E2271B50500F4337C /* SpreadButton.m in Sources */,
+				238C0BEA2271B4CA00F4337C /* ViewController.m in Sources */,
+				238C0C0F2271B50500F4337C /* SpreadComponentry.m in Sources */,
+				238C0BF52271B4CC00F4337C /* main.m in Sources */,
+				238C0BE72271B4CA00F4337C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238C0BF62271B4CD00F4337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238C0BFF2271B4CD00F4337C /* SpreadButton_IOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		238C0BFC2271B4CD00F4337C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 238C0BE12271B4CA00F4337C /* SpreadButton-IOS */;
+			targetProxy = 238C0BFB2271B4CD00F4337C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		238C0BEB2271B4CA00F4337C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238C0BEC2271B4CA00F4337C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		238C0BF02271B4CC00F4337C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238C0BF12271B4CC00F4337C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		238C0C012271B4CD00F4337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		238C0C022271B4CD00F4337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		238C0C042271B4CD00F4337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZF7V82Y3U;
+				INFOPLIST_FILE = "SpreadButton-IOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wxzhi.SpreadButton-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		238C0C052271B4CD00F4337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZF7V82Y3U;
+				INFOPLIST_FILE = "SpreadButton-IOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wxzhi.SpreadButton-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		238C0C072271B4CD00F4337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97NYV89UQG;
+				INFOPLIST_FILE = "SpreadButton-IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wxzhi.SpreadButton-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpreadButton-IOS.app/SpreadButton-IOS";
+			};
+			name = Debug;
+		};
+		238C0C082271B4CD00F4337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97NYV89UQG;
+				INFOPLIST_FILE = "SpreadButton-IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wxzhi.SpreadButton-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpreadButton-IOS.app/SpreadButton-IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238C0BDD2271B4CA00F4337C /* Build configuration list for PBXProject "SpreadButton-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238C0C012271B4CD00F4337C /* Debug */,
+				238C0C022271B4CD00F4337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238C0C032271B4CD00F4337C /* Build configuration list for PBXNativeTarget "SpreadButton-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238C0C042271B4CD00F4337C /* Debug */,
+				238C0C052271B4CD00F4337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238C0C062271B4CD00F4337C /* Build configuration list for PBXNativeTarget "SpreadButton-IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238C0C072271B4CD00F4337C /* Debug */,
+				238C0C082271B4CD00F4337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 238C0BDA2271B4CA00F4337C /* Project object */;
+}
