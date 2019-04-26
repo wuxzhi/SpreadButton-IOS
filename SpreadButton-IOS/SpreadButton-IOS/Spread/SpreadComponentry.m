@@ -81,6 +81,8 @@ CGFloat        const RadiusStep = 5; // 递归变量递增值
     self.spreadButton = [[UIButton alloc] init];
     self.spreadButton.backgroundColor = [UIColor yellowColor];
     self.spreadButton.transform = CGAffineTransformIdentity;
+    [self.spreadButton setTitle:@"点&拖" forState:UIControlStateNormal];
+    [self.spreadButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self addSubview:self.spreadButton];
     
 //    [self.spreadButton addTarget:self action:@selector(spreadButtonDidClick:) forControlEvents:UIControlEventTouchUpInside];
