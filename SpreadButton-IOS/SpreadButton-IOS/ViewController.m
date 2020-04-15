@@ -29,9 +29,9 @@
         spreadButton.radius = 23;
         spreadButton.itemsNum = 5;
         spreadButton.alpha = 0;
-//        _spreadButton.normalImage = [UIImage imageNamed:@"normalImage"];
-//        _spreadButton.selImage = [UIImage imageNamed:@"selImage"];
-//        _spreadButton.images = @[
+//        spreadButton.normalImage = [UIImage imageNamed:@"normalImage"];
+//        spreadButton.selImage = [UIImage imageNamed:@"selImage"];
+//        spreadButton.images = @[
 //                                 @"image1",
 //                                 @"image2",
 //                                 @"image3",
