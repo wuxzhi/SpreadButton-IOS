@@ -13,8 +13,6 @@
 @property (nonatomic, strong) SpreadButton *spreadButton;
 @end
 
-#define NEWWEAKSELF __weak typeof(self) weakSelf = self;
-
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -25,12 +23,12 @@
 /** 缩放按钮 */
 - (void)showSpreadBut {
     if (!_spreadButton) {
-        _spreadButton = [[SpreadButton alloc] initWithFrame:CGRectMake(SCREEN_WIDTH - 72, SCREEN_HEIGHT - 200, 53, 53)];
-        [self.view addSubview:_spreadButton];
+        SpreadButton *spreadButton = [[SpreadButton alloc] initWithFrame:CGRectMake(SCREEN_WIDTH - 72, SCREEN_HEIGHT - 200, 53, 53)];
+        [self.view addSubview:spreadButton];
         
-        _spreadButton.radius = 23;
-        _spreadButton.itemsNum = 5;
-        _spreadButton.alpha = 0;
+        spreadButton.radius = 23;
+        spreadButton.itemsNum = 5;
+        spreadButton.alpha = 0;
 //        _spreadButton.normalImage = [UIImage imageNamed:@"normalImage"];
 //        _spreadButton.selImage = [UIImage imageNamed:@"selImage"];
 //        _spreadButton.images = @[
@@ -40,17 +38,17 @@
 //                                 @"image4",
 //                                 @"image5"];
         
-        [_spreadButton.spreadButton addTarget:self action:@selector(spreadButtonDidClick:) forControlEvents:UIControlEventTouchUpInside];
+        [spreadButton.spreadButton addTarget:self action:@selector(spreadButtonDidClick:) forControlEvents:UIControlEventTouchUpInside];
         
-        NEWWEAKSELF
         [UIView animateWithDuration:0.5 animations:^{
-            weakSelf.spreadButton.alpha = 1;
+            spreadButton.alpha = 1;
         }];
         
         //添加按钮选择操作
-        [_spreadButton spreadButtonDidClickItemAtIndex:^(NSUInteger index) {
+        [spreadButton spreadButtonDidClickItemAtIndex:^(NSUInteger index) {
             NSLog(@"点击了 = %zd",index);
         }];
+        _spreadButton = spreadButton;
     } else {
         [_spreadButton setHidden:NO];
         _spreadButton.alpha = 1;

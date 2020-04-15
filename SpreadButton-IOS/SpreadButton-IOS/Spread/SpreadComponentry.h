@@ -23,7 +23,7 @@ typedef NS_ENUM(NSUInteger, SpreadStyle) {
 @property (nonatomic, assign) SpreadStyle style;
 @property (nonatomic, strong) NSArray <UIView *> *subItems;
 @property (nonatomic, assign) NSTimeInterval duration;
-/** 开启粘滞功能 */
+/** 开启粘滞贴边功能 */
 @property (nonatomic, assign) BOOL spreadButtonOpenViscousity;
 /** 弹出btn半径 default:70*/
 @property (nonatomic, assign) CGFloat radius;
@@ -37,6 +37,9 @@ typedef NS_ENUM(NSUInteger, SpreadStyle) {
 @property (nonatomic, assign) CGFloat spreadDis;
 /** 是否是展开状态*/
 @property (nonatomic, assign) BOOL isSpreading;
+/** 允许在屏幕外 */
+@property (nonatomic, assign) BOOL canBeyondScreen;
+
 - (instancetype)initWithSubItems:(NSArray <UIView *> *)subItems;
 - (void)spreadWithHandle:(void(^)(void))handle;
 - (void)shrinkWithHandle:(void(^)(void))handle;

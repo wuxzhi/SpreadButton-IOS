@@ -96,7 +96,6 @@ CGFloat        const RadiusStep = 5; // 递归变量递增值
 
 - (void)panToSpread:(UIPanGestureRecognizer *)pan {
     if (_isSpreading == YES) {
-//        [self spreadButtonDidClick:self.spreadButton];
         return;
     }
     
@@ -105,8 +104,7 @@ CGFloat        const RadiusStep = 5; // 递归变量递增值
     CGPoint p = [pan translationInView:self];
     self.transform = CGAffineTransformTranslate(self.transform, p.x, p.y);
     [pan setTranslation:CGPointMake(0, 0) inView:self];
-    // frame 是在变化的
-    
+    // frame 变化
     if (pan.state == UIGestureRecognizerStateEnded || pan.state == UIGestureRecognizerStateCancelled || pan.state == UIGestureRecognizerStateFailed) {
         if (!_spreadButtonOpenViscousity) {
             return;
@@ -119,9 +117,12 @@ CGFloat        const RadiusStep = 5; // 递归变量递增值
 
 
 /**
- 贴边功能
+ 屏幕范围控制
  */
 - (void)spreadButtonUnborderFuncationCalFrame {
+    if (_canBeyondScreen) {
+        return;
+    }
     CGFloat offset_x = self.frame.origin.x + self.frame.size.width - SCREEN_WIDTH;
     CGFloat offset_y = self.frame.origin.y + self.frame.size.height - SCREEN_HEIGHT;
     if (offset_x > 0) {
@@ -138,7 +139,7 @@ CGFloat        const RadiusStep = 5; // 递归变量递增值
 }
 
 /**
- 开启粘滞功能
+ 开启粘滞贴边功能
  */
 - (void)spreadButtonViscousityFuncationCalFrame {
     CGRect rect = self.frame;
@@ -264,6 +265,10 @@ CGFloat        const RadiusStep = 5; // 递归变量递增值
  * 处理边缘情况
  */
 - (BOOL)calInitialAngleWithTotalAngle:(CGFloat *)angle offsetAngle:(CGFloat *)sAngle {
+    
+    if (_canBeyondScreen) {
+        return NO;
+    }
     
     CGPoint cp = CGPointMake(self.frame.origin.x + self.frame.size.width / 2, self.frame.origin.y + self.frame.size.height / 2);
     // a1 item1偏移y轴的弧度
